@@ -9,6 +9,9 @@
       <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="208,242" computeExpression="esql://routine/#POCFLOW_Compute.Main">
         <translation xmi:type="utility:ConstantString" string="Compute"/>
       </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="263,242" computeExpression="esql://routine/#POCFLOW_Compute.Main">
+        <translation xmi:type="utility:ConstantString" string="Compute1"/>
+      </nodes>
     </composition>
     <propertyOrganizer/>
     <stickyBoard/>
