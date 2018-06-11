@@ -6,7 +6,7 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/POC_Flows/icons/full/obj16/CallingFlow.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/POC_Flows/icons/full/obj30/CallingFlow.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="112,261" URLSpecifier="/GetName">
+      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="112,261" URLSpecifier="/GetName" identityType="usernameAndPassword" catchSecurityExceptions="true">
         <translation xmi:type="utility:ConstantString" string="HTTP Input"/>
       </nodes>
       <nodes xmi:type="ComIbmCallableFlowInvoke.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="237,257" targetApplication="POC_FLows1" targetEndpointName="GetName" callPreference="RemoteOnly">

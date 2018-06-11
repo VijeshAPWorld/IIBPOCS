@@ -1,0 +1,67 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "title" : "EmployeAPIREST",
+    "version" : "1.0.0",
+    "description" : "EmployeAPIREST"
+  },
+  "paths" : {
+    "/GetEmpDetails" : {
+      "get" : {
+        "operationId" : "getGetEmpDetails",
+        "responses" : { },
+        "produces" : [ "application/json" ],
+        "description" : "Retrieve GetEmpDetails",
+        "parameters" : [ {
+          "name" : "CustomerID",
+          "in" : "query",
+          "type" : "string",
+          "required" : true
+        } ]
+      },
+      "post" : {
+        "operationId" : "postGetEmpDetails",
+        "responses" : {
+          "200" : {
+            "description" : "The operation was successful."
+          }
+        },
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "description" : "Insert a GetEmpDetails",
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "schema" : {
+            "type" : "string"
+          },
+          "description" : "The request body for the operation",
+          "required" : true
+        } ]
+      }
+    },
+    "/ModifyCutomer" : {
+      "post" : {
+        "operationId" : "postModifyCutomer",
+        "responses" : {
+          "200" : {
+            "description" : "The operation was successful."
+          }
+        },
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "description" : "Insert a ModifyCutomer",
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "schema" : {
+            "type" : "string"
+          },
+          "description" : "The request body for the operation",
+          "required" : true
+        } ]
+      }
+    }
+  },
+  "basePath" : "/employeapirest/v1"
+}
